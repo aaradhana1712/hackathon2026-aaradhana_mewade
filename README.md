@@ -1,7 +1,7 @@
 # 🚀 ShopWave Autonomous Support Agent
 **Agentic AI Hackathon 2026 - Official Submission**
 
-### 🚀 LIVE DEMO: [https://hackathon2026-aaradhana-mewade.vercel.app]
+### 🚀 LIVE DEMO: [LIVE](https://hackathon2026-aaradhana-mewade.vercel.app)
 ### 📹 RECORDED WALKTHROUGH: [Watch Demo Video](https://drive.google.com/file/d/1wJvV5eqKEMrB0E4w08PU2TnrOUyIgDfL/view?usp=sharing)
 
 ---
