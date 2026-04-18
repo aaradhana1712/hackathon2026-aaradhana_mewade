@@ -1,0 +1,10 @@
+langchain-google-genai
+langgraph
+pydantic
+aiohttp
+python-dotenv
+jsonlines
+requests
+fastapi
+uvicorn
+jinja2

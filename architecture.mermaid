@@ -1,0 +1,32 @@
+graph TD
+    title[<b>SHOPWAVE AUTONOMOUS SUPPORT AGENT</b><br/>System Architecture & Governance Pipeline]
+    style title fill:none,stroke:none,font-size:24px,font-weight:bold
+
+    subgraph "1. INGESTION LAYER"
+        A[JSON Tickets Source] --> B{Async Orchestrator}
+    end
+
+    subgraph "2. AGENTIC CORE (LangGraph)"
+        B --> C[Triage & Classification]
+        C --> D{Confidence Gate}
+        D -- "Low Confidence" --> H[Human Handoff Template]
+        D -- "High Confidence" --> E[Chain Rule Processing]
+    end
+
+    subgraph "3. TOOL GATEWAY"
+        E --> F1[get_customer]
+        E --> F2[get_order]
+        E --> F3[get_product]
+        E --> F4[search_policies]
+    end
+
+    subgraph "4. AUDIT & RECOVERY"
+        F1 & F2 & F3 & F4 --> G[Recovery Handler]
+        G --> L[Audit Log Persistence]
+        L --> M[Mission Control Dashboard]
+    end
+
+    style A fill:#f3f4f6,stroke:#333
+    style M fill:#38bdf8,color:#fff,stroke-width:2px
+    style H fill:#fca5a5,stroke:#ef4444
+    linkStyle default stroke:#38bdf8,stroke-width:2.5px

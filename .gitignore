@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.vscode/
+.gemini/
+scratch/
+*.pyc
+SUBMISSION_STEPS.md
+.env.example

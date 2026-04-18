@@ -1,0 +1,842 @@
+[
+  {
+    "timestamp": "2026-04-19T00:10:42.148412",
+    "ticket_id": "TKT-001",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.148942",
+    "ticket_id": "TKT-002",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.149322",
+    "ticket_id": "TKT-003",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.149728",
+    "ticket_id": "TKT-004",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.149929",
+    "ticket_id": "TKT-005",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.150214",
+    "ticket_id": "TKT-006",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.150532",
+    "ticket_id": "TKT-007",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.150816",
+    "ticket_id": "TKT-008",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.151087",
+    "ticket_id": "TKT-009",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.151406",
+    "ticket_id": "TKT-010",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.160050",
+    "ticket_id": "TKT-001",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.160467",
+    "ticket_id": "TKT-002",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.160924",
+    "ticket_id": "TKT-003",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.161316",
+    "ticket_id": "TKT-004",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.162087",
+    "ticket_id": "TKT-005",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.162583",
+    "ticket_id": "TKT-006",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.162939",
+    "ticket_id": "TKT-007",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.163225",
+    "ticket_id": "TKT-008",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.163478",
+    "ticket_id": "TKT-009",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.163799",
+    "ticket_id": "TKT-010",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.171730",
+    "ticket_id": "TKT-001",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.171987",
+    "ticket_id": "TKT-001",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.172159",
+    "ticket_id": "TKT-001",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.172451",
+    "ticket_id": "TKT-002",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.172681",
+    "ticket_id": "TKT-002",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.172841",
+    "ticket_id": "TKT-002",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.173075",
+    "ticket_id": "TKT-003",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.173291",
+    "ticket_id": "TKT-003",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.173561",
+    "ticket_id": "TKT-003",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.174766",
+    "ticket_id": "TKT-004",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.175154",
+    "ticket_id": "TKT-004",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.175407",
+    "ticket_id": "TKT-004",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.175667",
+    "ticket_id": "TKT-005",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.175943",
+    "ticket_id": "TKT-005",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.176300",
+    "ticket_id": "TKT-005",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.176695",
+    "ticket_id": "TKT-006",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.177016",
+    "ticket_id": "TKT-006",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.177285",
+    "ticket_id": "TKT-006",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.177521",
+    "ticket_id": "TKT-007",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.177708",
+    "ticket_id": "TKT-007",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.177902",
+    "ticket_id": "TKT-007",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178064",
+    "ticket_id": "TKT-008",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178281",
+    "ticket_id": "TKT-008",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178443",
+    "ticket_id": "TKT-008",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178606",
+    "ticket_id": "TKT-009",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178789",
+    "ticket_id": "TKT-009",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.178962",
+    "ticket_id": "TKT-009",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.179231",
+    "ticket_id": "TKT-010",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.179425",
+    "ticket_id": "TKT-010",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.179633",
+    "ticket_id": "TKT-010",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.186879",
+    "ticket_id": "TKT-001",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 76%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.187152",
+    "ticket_id": "TKT-001",
+    "type": "HANDOFF",
+    "data": "Rule: Explain -> Generating template for uncertainty."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.187490",
+    "ticket_id": "TKT-002",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 96%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.187753",
+    "ticket_id": "TKT-002",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.187993",
+    "ticket_id": "TKT-003",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 81%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.188357",
+    "ticket_id": "TKT-003",
+    "type": "HANDOFF",
+    "data": "Rule: Explain -> Generating template for uncertainty."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.197600",
+    "ticket_id": "TKT-004",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 78%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.197939",
+    "ticket_id": "TKT-004",
+    "type": "HANDOFF",
+    "data": "Rule: Explain -> Generating template for uncertainty."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.198166",
+    "ticket_id": "TKT-005",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 93%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.198369",
+    "ticket_id": "TKT-005",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.198844",
+    "ticket_id": "TKT-006",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 79%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.199063",
+    "ticket_id": "TKT-006",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.199333",
+    "ticket_id": "TKT-007",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 95%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.199597",
+    "ticket_id": "TKT-007",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.199908",
+    "ticket_id": "TKT-008",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 84%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.200116",
+    "ticket_id": "TKT-008",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.200347",
+    "ticket_id": "TKT-009",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 98%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.200497",
+    "ticket_id": "TKT-009",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.200802",
+    "ticket_id": "TKT-010",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 99%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:42.201142",
+    "ticket_id": "TKT-010",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.433054",
+    "ticket_id": "TKT-011",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.433567",
+    "ticket_id": "TKT-012",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.433821",
+    "ticket_id": "TKT-013",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.434033",
+    "ticket_id": "TKT-014",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.434322",
+    "ticket_id": "TKT-015",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.434577",
+    "ticket_id": "TKT-016",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.434787",
+    "ticket_id": "TKT-017",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.435066",
+    "ticket_id": "TKT-018",
+    "type": "TRIAGE",
+    "data": "Class: HIGH | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.435613",
+    "ticket_id": "TKT-019",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.436361",
+    "ticket_id": "TKT-020",
+    "type": "TRIAGE",
+    "data": "Class: LOW | Vis: External-Customer | Cat: Customer Operation"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.451502",
+    "ticket_id": "TKT-011",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.452021",
+    "ticket_id": "TKT-012",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.452351",
+    "ticket_id": "TKT-013",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.452605",
+    "ticket_id": "TKT-014",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.452877",
+    "ticket_id": "TKT-015",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.453103",
+    "ticket_id": "TKT-016",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.453374",
+    "ticket_id": "TKT-017",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.453652",
+    "ticket_id": "TKT-018",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.453915",
+    "ticket_id": "TKT-019",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.454202",
+    "ticket_id": "TKT-020",
+    "type": "TOOL",
+    "data": "Official Call: get_customer"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.478364",
+    "ticket_id": "TKT-011",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.479023",
+    "ticket_id": "TKT-011",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.479325",
+    "ticket_id": "TKT-011",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.480944",
+    "ticket_id": "TKT-012",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.481622",
+    "ticket_id": "TKT-012",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.482235",
+    "ticket_id": "TKT-012",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.482779",
+    "ticket_id": "TKT-013",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.482971",
+    "ticket_id": "TKT-013",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.483080",
+    "ticket_id": "TKT-013",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.483596",
+    "ticket_id": "TKT-014",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.483814",
+    "ticket_id": "TKT-014",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.484016",
+    "ticket_id": "TKT-014",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.484327",
+    "ticket_id": "TKT-015",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.484532",
+    "ticket_id": "TKT-015",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.484690",
+    "ticket_id": "TKT-015",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.484987",
+    "ticket_id": "TKT-016",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.485475",
+    "ticket_id": "TKT-016",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.486084",
+    "ticket_id": "TKT-016",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.486881",
+    "ticket_id": "TKT-017",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.487459",
+    "ticket_id": "TKT-017",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.487893",
+    "ticket_id": "TKT-017",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.488709",
+    "ticket_id": "TKT-018",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.489271",
+    "ticket_id": "TKT-018",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.489547",
+    "ticket_id": "TKT-018",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.490269",
+    "ticket_id": "TKT-019",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.491113",
+    "ticket_id": "TKT-019",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.491438",
+    "ticket_id": "TKT-019",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.491846",
+    "ticket_id": "TKT-020",
+    "type": "TOOL",
+    "data": "Official Call: get_order"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.492045",
+    "ticket_id": "TKT-020",
+    "type": "TOOL",
+    "data": "Official Call: get_product"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.492238",
+    "ticket_id": "TKT-020",
+    "type": "TOOL",
+    "data": "Official Call: search_policies"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.514413",
+    "ticket_id": "TKT-011",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 75%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.514811",
+    "ticket_id": "TKT-011",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.515215",
+    "ticket_id": "TKT-012",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 83%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.515370",
+    "ticket_id": "TKT-012",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.515728",
+    "ticket_id": "TKT-013",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 93%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.516071",
+    "ticket_id": "TKT-013",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.516337",
+    "ticket_id": "TKT-014",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 95%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.516513",
+    "ticket_id": "TKT-014",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.516709",
+    "ticket_id": "TKT-015",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 81%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.517268",
+    "ticket_id": "TKT-015",
+    "type": "HANDOFF",
+    "data": "Rule: Explain -> Generating template for uncertainty."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.517664",
+    "ticket_id": "TKT-016",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 89%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.517938",
+    "ticket_id": "TKT-016",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.518425",
+    "ticket_id": "TKT-017",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 96%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.518726",
+    "ticket_id": "TKT-017",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.519062",
+    "ticket_id": "TKT-018",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 96%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.519289",
+    "ticket_id": "TKT-018",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.519664",
+    "ticket_id": "TKT-019",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 93%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.520005",
+    "ticket_id": "TKT-019",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.520333",
+    "ticket_id": "TKT-020",
+    "type": "CONFIDENCE",
+    "data": "Evaluation Score: 81%"
+  },
+  {
+    "timestamp": "2026-04-19T00:10:47.520620",
+    "ticket_id": "TKT-020",
+    "type": "FINAL_ACTION",
+    "data": "Resolved autonomously. reasoning: system_match_pol_v2."
+  }
+]
