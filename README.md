@@ -1,6 +1,14 @@
 # 🚀 ShopWave Autonomous Support Agent
 **Agentic AI Hackathon 2026 - Official Submission**
 
+### 🚀 LIVE DEMO: [https://hackathon2026-aaradhana-mewade.vercel.app]
+### 📹 RECORDED WALKTHROUGH: [Watch Demo Video](https://drive.google.com/file/d/1wJvV5eqKEMrB0E4w08PU2TnrOUyIgDfL/view?usp=sharing)
+
+---
+
+## 🏛️ Project Overview
+This project presents a production-grade, autonomous support resolution agent for **ShopWave**. Built on a robust **LangGraph** foundation, the agent is designed to handle hundreds of support tickets simultaneously while maintaining 100% transparency through a professional audit governance hub.
+
 ## 🌐 Live Dashboard
 - **URL:** [http://127.0.0.1:8002](http://127.0.0.1:8002) (Local Deployment)
 - **Status:** Production-Ready | Audit Logs Active
@@ -25,7 +33,7 @@ Our agent follows a strictly governed **governance-first** loop:
 3. Run Agent Execution: `python main.py`
 4. Launch Monitoring Dashboard: `python app.py`
 
-## 🐳 Docker Deployment (Bonus)
+## 🐳 Docker Deployment (Bonus Points)
 ```bash
 docker build -t shopwave-agent .
 docker run -p 8002:8002 shopwave-agent
@@ -33,8 +41,8 @@ docker run -p 8002:8002 shopwave-agent
 
 ## 📝 Challenges Faced (For Hackathon Form)
 1. **Concurrency Control:** Balancing high-speed parallel processing with API rate limits was solved using asynchronous semaphores.
-2. **Graceful Recovery:** Implementing a fail-safe mechanism that doesn't just crash on tool timeouts but provides "Fallback Context" was critical for production readiness.
-3. **Visibility Audit:** Integrating an internal/external visibility classification during the triage phase to ensure regulatory compliance.
+2. **Graceful Recovery:** Implementing a fail-safe mechanism for tool timeouts.
+3. **Visibility Audit:** Integrating internal/external visibility classification.
 
 ---
-**Developed with ❤️ for the Agentic AI Hackathon 2026.**
+**Developed with ❤️ by Aaradhana Mewade for the Agentic AI Hackathon 2026.**
